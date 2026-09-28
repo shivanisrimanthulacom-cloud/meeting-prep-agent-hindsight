@@ -5,8 +5,8 @@ The hackathon demo script. Tells one story:
 
   Meeting 1: nothing on file, brief is empty.
   Meeting 2: a promise gets broken and a competitor enters the picture.
-  Meeting 3: the brief on file BEFORE this meeting flags the broken
-             promise and the competitor threat automatically —
+  Meeting 3: the brief you request BEFORE this meeting flags the broken
+             promise and the competitor threat from memory —
              this is the moment that makes memory the star of the demo.
 
 Run with:  python3 demo.py
@@ -69,9 +69,9 @@ def main():
     line("PREP BRIEF before Meeting 3 — THIS is the memory payoff")
     print(agent.prep_brief(contact))
     print(
-        "\n>>> Notice: the agent surfaces the broken promise and the competitor\n"
-        ">>> threat from a meeting two weeks ago, unprompted, before you even\n"
-        ">>> walk into the room."
+        "\n>>> Notice: without re-entering anything, the brief connects the\n"
+        ">>> broken promise to the competitor threat from meetings two\n"
+        ">>> weeks apart."
     )
 
     line("Ad-hoc recall: 'what has Jordan said about competitors?'")
